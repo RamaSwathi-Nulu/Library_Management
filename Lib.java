@@ -9,7 +9,6 @@ class Book {
         this.author = author;
     }
 }
-
 class Member {
     String name;
     int id;
@@ -55,7 +54,6 @@ class Member {
         }
     }
 }
-
 public class Lib {
     static HashMap<Integer, Book> booklist = new HashMap<>();
     static ArrayList<Member> memberlist = new ArrayList<>();
@@ -164,9 +162,7 @@ public class Lib {
                     break loop;
                 default:
                     System.out.println("Invalid Input");
-            }
-
-            
+            }            
         }
     }
 }
